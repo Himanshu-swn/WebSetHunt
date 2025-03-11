@@ -2,7 +2,7 @@
     "rewrites": [
       {
         "source": "/api/:path*",
-        "destination": "https://websethunt.onrender.com/:path*"
+        "destination": "https://websethunt-zyn1.onrender.com/:path*"
       },
       {
         "source": "/:path*",
