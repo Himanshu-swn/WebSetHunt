@@ -45,8 +45,8 @@ app.use("/api/dashboard", quizRoutes);
 // app.use("/api/que", quesRoutes);
 app.use("/api/auth", userRoutes);
 
-// app.listen(port, () => {
-//   console.log(`App is running on the port ${port}`);
-// });
+app.listen(port, () => {
+  console.log(`App is running on the port ${port}`);
+});
 
 module.exports = app;
