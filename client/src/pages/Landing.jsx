@@ -6,7 +6,7 @@ import {
   FaLinkedin,
   FaFacebook,
   FaGlobe,
-} from "react-icons/fa"; // Import social media icons
+} from "react-icons/fa";
 
 const Landing = () => {
   return (
