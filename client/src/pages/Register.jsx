@@ -81,8 +81,14 @@ const Register = () => {
   };
 
   return (
-    <div className="bg-[url('background.png')] bg-cover bg-center ">
-      <div className="absolute inset-0 bg-black opacity-80"></div>
+    <div
+      className="min-h-screen w-full bg-black"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('background.png')`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="relative font-mono min-h-screen w-full flex items-center justify-center  px-4 gap-6">
         {/* Instructions Box */}
         <div className="max-w-md w-full bg-black/90 p-6 rounded-xl shadow-lg space-y-4 border  border-green-600">
